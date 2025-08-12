@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioM7</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de validação</h1>
+        <h2>Insira os valores em campo 1 e campo 2</h2>
+        <form id="form-numeros">
+            <input type="number" id="campo-1" required placeholder="Campo 1">
+            <input type="number" id="campo-2" required placeholder="Campo 2">
+            <button id="enviar" type="submit">Enviar</button>
+            <p id="error-message" class="error-message">
+                O número (b) debe ser maior que o número (A)
+            </p>
+        </form>
+
+        <p class="success-message"></p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
